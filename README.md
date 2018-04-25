@@ -44,7 +44,7 @@ Rent a VPS or droplet from Digital Ocean running Ubuntu 14.04 server.
 
 5) ```sudo apt-get install libminiupnpc-dev libminiupnpc-dev libevent-dev libcrypto++-dev libgmp3-dev```
 
-6) Download the daemon file by going to -> ```https://oid.life/node/opioid-daemon-linux.tar.gz```
+6) Download the daemon file by going to -> https://oid.life/node/opioid-daemon-linux.tar.gz
 
 7) Extract the tar file using the following command.
 
@@ -92,7 +92,7 @@ daemon=1
 
 You can setup a node on Windows server using the following instructions.
 
-1) Download the Windows QT wallet by going to -> ```https://github.com/OidLife/Wallets```
+1) Download the Windows QT wallet by going to -> https://github.com/OidLife/Wallets
 
 (Upload the file to your Windows server.)
 
