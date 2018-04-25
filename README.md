@@ -84,7 +84,7 @@ daemon=1
 
 ```opioidd```
 
-*** If you get an error running the daemon node at this point, you may need to compile from source. ***
+#### *** If you get an error running the daemon node at this point, you may need to compile from source. ***
 
 (Go here to -> ```https://github.com/OidLife/Compiling```)
 
