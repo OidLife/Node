@@ -19,7 +19,7 @@ Paste the following text into opioid.conf and save the file.
 
 ```addnode=REPLACE_WITH_YOUR_VPS_IP_OR_HOSTNAME```
 
-Replace the text "```REPLACE_WITH_YOUR_VPS_IP_OR_HOSTNAME```" with an IP address or hostname. 
+Replace the text "`REPLACE_WITH_YOUR_VPS_IP_OR_HOSTNAME`" with an IP address or hostname. 
 
 E.G. ```addnode=37.97.242.80``` or ```addnode=node.myvpshostname.com```
 
