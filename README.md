@@ -17,11 +17,11 @@ Close your OID wallet and create the file opioid.conf in the folder "%APPDATA%\O
 
 Paste the following text into opioid.conf and save the file.
 
-addnode=REPLACE_WITH_YOUR_VPS_IP_OR_HOSTNAME
+```addnode=REPLACE_WITH_YOUR_VPS_IP_OR_HOSTNAME```
 
-Replace the text "REPLACE_WITH_YOUR_VPS_IP_OR_HOSTNAME" with an IP address or hostname. 
+Replace the text "```REPLACE_WITH_YOUR_VPS_IP_OR_HOSTNAME```" with an IP address or hostname. 
 
-E.G. addnode=37.97.242.80 or addnode=node.myvpshostname.com
+E.G. ```addnode=37.97.242.80``` or ```addnode=node.myvpshostname.com```
 
 # How do I setup a node on Ubuntu server?
 You can setup a node on Ubuntu server using the following instructions.
@@ -32,41 +32,41 @@ Rent a VPS or droplet from Digital Ocean running Ubuntu 14.04 server.
 
 # Update your VPS using the following commands.
 
-1) sudo apt-get update
+1) ```sudo apt-get update```
 
-2) sudo apt-get upgrade
+2) ```sudo apt-get upgrade```
 
 # Install the necessary dependencies using the following commands.
 
-3) sudo apt-get install build-essential libssl-dev libdb-dev libdb++-dev libboost-all-dev git libssl1.0.0-dbg
+3) ```sudo apt-get install build-essential libssl-dev libdb-dev libdb++-dev libboost-all-dev git libssl1.0.0-dbg```
 
-4) sudo apt-get install libdb-dev libdb++-dev libboost-all-dev
+4) ```sudo apt-get install libdb-dev libdb++-dev libboost-all-dev```
 
-5) sudo apt-get install libminiupnpc-dev libminiupnpc-dev libevent-dev libcrypto++-dev libgmp3-dev
+5) ```sudo apt-get install libminiupnpc-dev libminiupnpc-dev libevent-dev libcrypto++-dev libgmp3-dev```
 
 6) Download the daemon file by going to -> https://oid.life/node/opioid-daemon-linux.tar.gz
 
 7) Extract the tar file using the following command.
 
-8) tar -xzvf opioid-daemon-linux.tar.gz
+```tar -xzvf opioid-daemon-linux.tar.gz```
 
 (You can remove the tar file by using ```rm opioid-daemon-linux.tar.gz```)
 
 # Install the daemon.
 
-9) chmod +x opioidd
+8) ```chmod +x opioidd```
 
-10) sudo mv opioidd /usr/bin/
+9) ```sudo mv opioidd /usr/bin/```
 
 # Create the config file.
 
-11) cd ~
+10) ```cd ~```
 
-12) mkdir .opioid
+11) ```mkdir .opioid```
 
-13) cd .opioid 
+12) ```cd .opioid```
 
-14) opioid.conf
+13) ```opioid.conf```
 
 # Paste the following lines in opioid.conf.
 
@@ -82,7 +82,7 @@ daemon=1
 
 # Start your node with the following command.
 
-opioidd
+```opioidd```
 
 *** If you get an error running the daemon node at this point, you may need to compile from source. ***
 
@@ -124,6 +124,7 @@ Your wallet will now act as a node when you start your wallet.
 6) Run your Opioid wallet. 
 
 Thank you,
+
 OID Team
 
 
