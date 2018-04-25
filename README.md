@@ -65,6 +65,7 @@ Rent a VPS or droplet from Digital Ocean running Ubuntu 14.04 server.
 
 # Paste the following lines in opioid.conf.
 
+'''
 rpcuser=RPC_USERNAME
 rpcpassword=RPC_PASSWORD
 rpcallowip=127.0.0.1
@@ -72,6 +73,7 @@ listen=1
 server=1
 txindex=1
 daemon=1
+'''
 
 # Start your node with the following command.
 
