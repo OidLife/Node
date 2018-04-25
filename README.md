@@ -3,6 +3,7 @@ Installing and running OID node.
 
 # What is a node?
 A node distributes the blockchain among the people who use the blockchain. 
+
 The second feature of a node is that it verifies the transactions of a blockchain.
 
 You can setup a node on your own VPS using the instructions below.
@@ -11,6 +12,7 @@ You can setup a node on your own VPS using the instructions below.
 You can manually connect to a node using the following instructions.
 
 Close your OID wallet and create the file opioid.conf in the folder "%APPDATA%\Opioid\".
+
 (If you have not downloaded your OID wallet, go here -> https://github.com/OidLife/Wallets). 
 
 Paste the following text into opioid.conf and save the file.
@@ -25,6 +27,7 @@ E.G. addnode=37.97.242.80 or addnode=node.myvpshostname.com
 You can setup a node on Ubuntu server using the following instructions.
 
 Rent a VPS or droplet from Digital Ocean running Ubuntu 14.04 server.
+
 (You can install this with Ubuntu 16.04+ but you may encounter some troubleshooting).
 
 # Update your VPS using the following commands.
@@ -46,6 +49,7 @@ Rent a VPS or droplet from Digital Ocean running Ubuntu 14.04 server.
 7) Extract the tar file using the following command.
 
 8) tar -xzvf opioid-daemon-linux.tar.gz
+
 (You can remove the tar file by using ```rm opioid-daemon-linux.tar.gz```)
 
 # Install the daemon.
@@ -81,12 +85,15 @@ daemon=1
 opioidd
 
 *** If you get an error running the daemon node at this point, you may need to compile from source. ***
+
 (Go here to -> https://github.com/OidLife/Compiling)
 
 # How do I setup a node on Windows server?
+
 You can setup a node on Windows server using the following instructions.
 
 1) Download the Windows QT wallet by going to -> https://github.com/OidLife/Wallets
+
 (Upload the file to your Windows server.)
 
 2) Extract the zip file opioid-qt.zip.
@@ -106,6 +113,7 @@ txindex=1
 Your wallet will now act as a node when you start your wallet.
 
 *** If you encounter errors opening you wallet, check your opioid.conf file. ***
+
 *** If you continue with wallet errors, do the following: ***
 
 1) Backup your wallet.dat file to a cold storage location. 
