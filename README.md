@@ -126,7 +126,7 @@ Your wallet will now act as a node when you start your wallet.
 
 Thank you,
 
-OID Team
+[OID Team](https://oid.life/)
 
 
 
