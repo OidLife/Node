@@ -17,11 +17,11 @@ Close your OID wallet and create the file opioid.conf in the folder "```%APPDATA
 
 Paste the following text into opioid.conf and save the file.
 
-```addnode=REPLACE_WITH_YOUR_VPS_IP_OR_HOSTNAME```
+ ```addnode=REPLACE_WITH_YOUR_VPS_IP_OR_HOSTNAME```
 
 Replace the text "`REPLACE_WITH_YOUR_VPS_IP_OR_HOSTNAME`" with an IP address or hostname. 
 
-E.G. ```addnode=37.97.242.80``` or ```addnode=node.myvpshostname.com```
+ E.G. ```addnode=37.97.242.80``` or ```addnode=node.myvpshostname.com```
 
 ## How do I setup a node on Ubuntu server?
 You can setup a node on Ubuntu server using the following instructions.
@@ -48,7 +48,7 @@ Rent a VPS or droplet from Digital Ocean running Ubuntu 14.04 server.
 
 7) Extract the tar file using the following command.
 
-```tar -xzvf opioid-daemon-linux.tar.gz```
+ ```tar -xzvf opioid-daemon-linux.tar.gz```
 
 (You can remove the tar file by using ```rm opioid-daemon-linux.tar.gz```)
 
@@ -82,19 +82,18 @@ daemon=1
 
 ## Start your node with the following command.
 
-```opioidd```
+ ```opioidd```
 
 #### *** If you get an error running the daemon node at this point, you may need to compile from source. ***
 
-(Go here to -> ```https://github.com/OidLife/Compiling```)
+ (Go here to -> ```https://github.com/OidLife/Compiling```)
 
 ## How do I setup a node on Windows server?
 
 You can setup a node on Windows server using the following instructions.
 
-1) Download the Windows QT wallet by going to -> https://github.com/OidLife/Wallets
-
-(Upload the file to your Windows server.)
+1) Download the Windows QT wallet by going to -> https://github.com/OidLife/Wallets  
+ (Upload the file to your Windows server.)
 
 2) Extract the zip file ```opioid-qt.zip```.
 
@@ -110,7 +109,7 @@ listen=1
 server=1
 txindex=1
 ```
-Your wallet will now act as a node when you start your wallet.
+ Your wallet will now act as a node when you start your wallet.
 
 #### *** If you encounter errors opening you wallet, check your opioid.conf file. ***
 
@@ -124,8 +123,7 @@ Your wallet will now act as a node when you start your wallet.
 6) Run your Opioid wallet. 
 
 
-Thank you,
-
+Thank you,  
 [OID Team](https://oid.life/)
 
 
